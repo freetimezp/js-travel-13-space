@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Banner from './components/Banner';
+import BannerR from './components/BannerR';
 
 import bgVideo from '../src/assets/earth-bg.mp4';
 
@@ -18,6 +20,8 @@ function App() {
       </div>
 
       <Services />
+      <Banner />
+      <BannerR />
     </div>
   );
 }
