@@ -9,7 +9,18 @@
     }
 }
 
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #180b59;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #b2a5f4;
+}
 
 
 

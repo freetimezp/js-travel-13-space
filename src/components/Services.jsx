@@ -43,7 +43,8 @@ function Services() {
                         {data?.length > 0 && data.map((service, i) => (
                             <div key={i} className='min-h-[180px] flex flex-col justify-center
                                 items-center rounded-xl bg-sky-900/60 backdrop-blur-sm gap-2
-                                text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto'>
+                                text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto'
+                                data-aos="fade-up" data-aos-delay={service.aosDelay}>
                                 {service.icon}
                                 <h1>
                                     {service.title}

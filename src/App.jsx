@@ -1,4 +1,7 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
 import './App.css';
+import "aos/dist/aos.css";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -9,6 +12,13 @@ import Footer from './components/Footer';
 import bgVideo from '../src/assets/earth-bg.mp4';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out"
+    });
+  }, []);
+
   return (
     <div>
       <div className='h-[100vh] relative'>
