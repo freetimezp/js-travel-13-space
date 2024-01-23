@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 import bgVideo from '../src/assets/earth-bg.mp4';
 
@@ -12,6 +13,7 @@ function App() {
           <source src={bgVideo} type="video/mp4" />
         </video>
         <Navbar />
+        <Hero />
       </div>
     </div>
   );
