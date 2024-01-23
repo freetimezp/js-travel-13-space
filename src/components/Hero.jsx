@@ -1,4 +1,5 @@
 
+import MountainImg from '../assets/moon-surface-hd.png';
 
 function Hero() {
     return (
@@ -24,6 +25,11 @@ function Hero() {
                     <div></div>
                 </div>
             </div>
+
+            <img src={MountainImg} alt="surface" className='absolute right-0 bottom-0 w-full brightness-50
+                z-10' />
+            <div className='absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-[10%]
+            to-black to-[90%] h-[20px] sm:h-[50px] md:h-[50px]'></div>
         </div>
     );
 }

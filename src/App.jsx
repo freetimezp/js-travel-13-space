@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/Services';
 
 import bgVideo from '../src/assets/earth-bg.mp4';
 
@@ -15,6 +16,8 @@ function App() {
         <Navbar />
         <Hero />
       </div>
+
+      <Services />
     </div>
   );
 }
